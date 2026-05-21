@@ -12,13 +12,6 @@ class Cachorro:
     def dormir(self):
         if self.sono == True:
             return "dormindo"
-lista_espera = [
-    Cachorro("robin", 3, False),
-    Cachorro("cleber", 2, True),
-    Cachorro("bart", 7, True),
-    Cachorro("milena", 5, False),
-    Cachorro("belinha", 0, True)
-]
 def inicializar():
     lista_espera = [
         Cachorro("robin", 3, False),
